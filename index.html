@@ -12,6 +12,10 @@
         .parent{
             font-weight: bold;
         }
+
+        #o1,#o2,#o4{
+            color: blue;
+        }     
     </style>
 </head>
 <body>
@@ -20,9 +24,6 @@
     
     <h2 id="hh2">Used Internal css</h2>
     <div class="parent">Hello World</div><hr/>
-
-
-
 
     <h2 id="hh3">Used External css</h2>
     <div id="text">With id</div><hr/>
@@ -39,6 +40,13 @@
         <span id="l2">When you click Online Video, you can paste in the embed code for the video you want to add. </span><br/>
         <span id="l3">You can also type a keyword to search online for the video that best fits your document.</span>
     </p>
-    
+
+    <hr/>
+    <div id="o1" style="color: red;">Inline(red) + Internal(blue) + External(yellow)</div>
+    <div id="o2">Internal(blue) + External(yellow)</div>
+    <div id="o3" style="color: red;">Inline(red) + External(yellow)</div>
+    <div id="o4" style="color: red;">Inline(red) + Internal(blue)</div>
+    <h4>if link is first and style is second then Internal css will be appplied</h4>
+    <h4>if style is first and link is second then External css will be appplied</h4>
 </body>
 </html>
