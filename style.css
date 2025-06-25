@@ -41,3 +41,36 @@ h3{
 #o1,#o2,#o3{
     color: yellow;
 }
+
+/* ------------------ */
+
+#transform{
+    /* text-transform: capitalize; */
+    text-transform: uppercase;
+    /* text-transform: lowercase; */
+    /* text-transform: none; */
+}
+
+#decorate{
+    text-decoration: overline;
+    /* text-decoration: underline; */
+    /* text-decoration: line-through; */
+    /* text-decoration: none; */
+}
+
+#aa{
+    text-decoration: none;
+    color: #efad34;
+    background-color: #051b34;
+}
+
+#all{
+    font-size: 21px;
+    font-weight: 400;
+    font-family: cursive;
+    font-style: italic;
+    color: #051b34;
+    text-transform: uppercase;
+    text-decoration: overline;
+
+}
