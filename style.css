@@ -74,3 +74,35 @@ h3{
     text-decoration: overline;
 
 }
+
+/* ------------------ */
+.fontinc{
+    font-size: 25px;
+}
+
+.letter{
+    letter-spacing: 10px;
+    word-spacing: 30px;
+    line-height: 15px;
+
+    /* text-align: center; */
+    /* text-align: left; */
+    text-align: right;
+}
+
+.change{
+    font-size: 40px;
+    color: rgb(72, 255, 255);
+    text-transform: uppercase;
+}
+
+.boat{
+    color: #e00606;
+    font-style: italic;
+}
+
+ul{
+    /* list-style-type: lower-alpha; */
+    list-style-image: url("image/i.png");
+    /* list-style: none; */
+}
