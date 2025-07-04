@@ -1,72 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
 
     <style>
-        #hh2{
-            color: blue;
-        }
-        .parent{
-            font-weight: bold;
-        }
+      #hh2 {
+        color: blue;
+      }
+      .parent {
+        font-weight: bold;
+      }
 
-        #o1,#o2,#o4{
-            color: blue;
-        }     
+      #o1,
+      #o2,
+      #o4 {
+        color: blue;
+      }
     </style>
-        <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <h2 style="color: coral;">Used Inline css</h2>
-    <p style="color:aqua;">Also here in paragraph tag</p><hr/>
-    
-    <h2 id="hh2">Used Internal css</h2>
-    <div class="parent">Hello World</div><hr/>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section id="hide">
+      <h2 style="color: coral">Used Inline css</h2>
+      <p style="color: aqua">Also here in paragraph tag</p>
+      <hr />
 
-    <h2 id="hh3">Used External css</h2>
-    <div id="text">With id</div><hr/>
-    
-    <h2 style="color: rgb(255, 98, 0);">Selectors:</h2> 
-    <div id="sid">Used id</div>
-    <div class="sclass">Used class, line1</div>
-    <div class="sclass">Used class, line2</div>
-    <h3>H3 tag selected</h3>
-    <hr/>
-    <h2>Font Properties</h2>
-    <p>
-        <span id="l1">Video provides a powerful way to help you prove your point.</span> <br/>
-        <span id="l2">When you click Online Video, you can paste in the embed code for the video you want to add. </span><br/>
-        <span id="l3">You can also type a keyword to search online for the video that best fits your document.</span>
-    </p>
+      <h2 id="hh2">Used Internal css</h2>
+      <div class="parent">Hello World</div>
+      <hr />
 
-    <hr/>
-    <div id="o1" style="color: red;">Inline(red) + Internal(blue) + External(yellow)</div>
-    <div id="o2">Internal(blue) + External(yellow)</div>
-    <div id="o3" style="color: red;">Inline(red) + External(yellow)</div>
-    <div id="o4" style="color: red;">Inline(red) + Internal(blue)</div>
-    <h4>if link is first and style is second then Internal css will be appplied</h4>
-    <h4>if style is first and link is second then External css will be appplied</h4>
+      <h2 id="hh3">Used External css</h2>
+      <div id="text">With id</div>
+      <hr />
 
-    <hr/>
+      <h2 style="color: rgb(255, 98, 0)">Selectors:</h2>
+      <div id="sid">Used id</div>
+      <div class="sclass">Used class, line1</div>
+      <div class="sclass">Used class, line2</div>
+      <h3>H3 tag selected</h3>
+      <hr />
+      <h2>Font Properties</h2>
+      <p>
+        <span id="l1"
+          >Video provides a powerful way to help you prove your point.</span
+        >
+        <br />
+        <span id="l2"
+          >When you click Online Video, you can paste in the embed code for the
+          video you want to add. </span
+        ><br />
+        <span id="l3"
+          >You can also type a keyword to search online for the video that best
+          fits your document.</span
+        >
+      </p>
 
-    <p id="transform">Text transformation</p>
-    <p id="decorate">Text Decoration</p>
-    <a href="https://www.flipkart.com/" id="aa">Flipkart</a>
-    <p id="all">Applied All</p>
+      <hr />
+      <div id="o1" style="color: red">
+        Inline(red) + Internal(blue) + External(yellow)
+      </div>
+      <div id="o2">Internal(blue) + External(yellow)</div>
+      <div id="o3" style="color: red">Inline(red) + External(yellow)</div>
+      <div id="o4" style="color: red">Inline(red) + Internal(blue)</div>
+      <h4>
+        if link is first and style is second then Internal css will be appplied
+      </h4>
+      <h4>
+        if style is first and link is second then External css will be appplied
+      </h4>
 
-    <hr/>   
-    <div class="fontinc">
+      <hr />
+
+      <p id="transform">Text transformation</p>
+      <p id="decorate">Text Decoration</p>
+      <a href="https://www.flipkart.com/" id="aa">Flipkart</a>
+      <p id="all">Applied All</p>
+
+      <hr />
+      <div class="fontinc">
         <p class="letter">ASD XYZ</p>
-        <p><span class="change">h</span>ello <span class="change">w</span>ord</p>
+        <p>
+          <span class="change">h</span>ello <span class="change">w</span>ord
+        </p>
         <p>bo<span class="boat">A</span>t</p>
         <ul>
-            <li>List1</li>
-            <li>List2</li>
-            <li>List3</li>
+          <li>List1</li>
+          <li>List2</li>
+          <li>List3</li>
         </ul>
-    </div>
-</body>
+      </div>
+    </section>
+
+    <section>
+      <p class="bg">Opacity 1</p>
+      <p class="bg op1">Opacity 0.6</p>
+      <p class="bg op2">Opacity 0.3</p>
+      <p class="bg op3">Opacity 0.1</p>
+    </section>
+    <section id="sec">
+        <div class="a1">
+            HELLo
+        </div>
+        <div class="a2">
+            
+        </div>        
+    </section>
+    <br/>
+    <section>
+        <span class="log pos">LOG IN</span>
+        <br/><br/>
+        <img src="image/aag.jpg" alt="aag" id="aaag">
+        <br/><br/>
+        <p class="hidden">This text is hidden</p>
+        <p>Not hidden text</p>
+    </section>
+
+    <section>
+      <div class="padding-margin">
+        Hello
+      </div>
+      <div class="pos">
+        <img src="image/aag.jpg" alt="aag" height="170" width="100">
+      </div>
+    </section>
+  </body>
 </html>
