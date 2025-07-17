@@ -108,7 +108,7 @@ ul{
     /* list-style: none; */
 }
 
-#hide{
+.hide{
     display: none;
 }
 
@@ -190,8 +190,40 @@ ul{
     /* position: relative; */
     /* position: absolute; */
     position: sticky;
-    top: 0px;
+    top: 10px;
     right: 100px;
     /* bottom: 0px; */
     /* left: 100px; */
 }
+
+/* ---------9-7-25--------- */
+
+.gcontainer{
+    display: grid;
+    /* display: inline-grid; */
+    grid-template-columns: auto auto auto;
+    background-color: rgba(0, 255, 255, 0.355);
+    padding: 10px;
+    /* gap: 100px 20px; */
+    grid-gap:20px 20px;
+    border: 3px solid rgb(247, 92, 92);
+}
+.item{
+    background-color: aliceblue;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid rgb(160, 45, 45);
+    /* border-radius: 15px; */
+}
+
+.item1{
+    /* grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3; */
+    grid-column: 1/3;
+    grid-row: 1/3;
+}
+
+/* ---------10-7-25--------- */
+
